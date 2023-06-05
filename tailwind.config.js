@@ -1,8 +1,8 @@
-import type { Config } from "tailwindcss";
 import Typography from "@tailwindcss/typography";
 
+/** @type {import('tailwindcss').Config} */
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,svelte,ts,tsx,vue}"],
   theme: {},
   plugins: [Typography],
-} satisfies Config;
+};
