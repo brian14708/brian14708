@@ -11,8 +11,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check && tsc --noEmit",
-    "lint": "prettier --check --plugin-search-dir=. . && eslint .",
-    "lint:fix": "prettier --write --plugin-search-dir=. . && eslint --fix .",
+    "lint": "prettier --check --plugin=prettier-plugin-astro . && eslint .",
+    "lint:fix": "prettier --write --plugin=prettier-plugin-astro . && eslint --fix .",
     "prepare": "husky install"
   },
   "devDependencies": {
