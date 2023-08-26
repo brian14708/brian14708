@@ -1,4 +1,5 @@
 ---
+import { ViewTransitions } from "astro:transitions";
 import { SITE_TITLE } from "../consts";
 
 export interface Props {
@@ -21,6 +22,7 @@ const { title = SITE_TITLE } = Astro.props;
     />
     <link rel="pingback" href="https://webmention.io/brian14708.dev/xmlrpc" />
     <title>{title}</title>
+    <ViewTransitions fallback="none" />
   </head>
   <body>
     <div>
