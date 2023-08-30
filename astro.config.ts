@@ -5,7 +5,4 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://brian14708.dev",
   integrations: [sitemap(), tailwind()],
-  experimental: {
-    viewTransitions: true,
-  },
 });
