@@ -20,7 +20,6 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
-          node-version: current
           cache: pnpm
       - name: Install
         run: pnpm install --frozen-lockfile
