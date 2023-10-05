@@ -17,27 +17,41 @@ import Layout from "../layouts/Layout.astro";
       >
         🚧 Under construction. 🚧
       </p>
-      <span class="h-card hidden" aria-hidden>
-        <a class="p-name u-url" href="https://brian14708.dev">Brian Li</a>
-        <a
-          class="p-nickname u-url"
-          rel="me"
-          href="https://github.com/brian14708"
-        >
-          brian14708
-        </a>
+      <section class="h-card hidden" aria-hidden>
+        <ul>
+          <li class="p-name">
+            <span class="p-given-name">Brian</span>
+            <span class="p-family-name">Li</span>
+          </li>
+          <li>
+            <a class="p-nickname u-url" rel="me" href="https://brian14708.dev"
+              >brian14708</a
+            >
+          </li>
+          <li>
+            <a class="u-url" rel="me" href="https://github.com/brian14708"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a class="u-url" rel="me" href="https://mastodon.social/@brian14708"
+              >Mastodon</a
+            >
+          </li>
+          <li>
+            <a
+              rel="pgpkey"
+              class="u-key"
+              href="/.well-known/openpgpkey/hu/s8y7oh5xrdpu9psba3i5ntk64ohouhga"
+              >PGP Key</a
+            >
+          </li>
+        </ul>
         <data
           class="u-logo"
           value="https://www.gravatar.com/avatar/ee8f84b4a2d0f873801cd60b4ced1a37cff97adbc6e1f66ac4ade2785fe9b39c?s=256"
         ></data>
-        <a
-          rel="pgpkey"
-          class="u-key"
-          href="/.well-known/openpgpkey/hu/s8y7oh5xrdpu9psba3i5ntk64ohouhga"
-        >
-          PGP Key
-        </a>
-      </span>
+      </section>
     </div>
   </div>
 </Layout>
