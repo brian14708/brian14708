@@ -16,7 +16,7 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "@astrojs/check": "0.3.0",
+    "@astrojs/check": "0.3.1",
     "@astrojs/rss": "3.0.0",
     "@astrojs/sitemap": "3.0.3",
     "@astrojs/tailwind": "5.0.2",
