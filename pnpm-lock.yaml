@@ -16,10 +16,10 @@ devDependencies:
     version: 3.0.3
   '@astrojs/tailwind':
     specifier: 5.0.3
-    version: 5.0.3(astro@4.0.6)(tailwindcss@3.3.7)
+    version: 5.0.3(astro@4.0.6)(tailwindcss@3.4.0)
   '@tailwindcss/typography':
     specifier: 0.5.10
-    version: 0.5.10(tailwindcss@3.3.7)
+    version: 0.5.10(tailwindcss@3.4.0)
   '@typescript-eslint/eslint-plugin':
     specifier: 6.15.0
     version: 6.15.0(@typescript-eslint/parser@6.15.0)(eslint@8.56.0)(typescript@5.3.3)
@@ -54,8 +54,8 @@ devDependencies:
     specifier: 2.9.0
     version: 2.9.0
   tailwindcss:
-    specifier: 3.3.7
-    version: 3.3.7
+    specifier: 3.4.0
+    version: 3.4.0
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -187,7 +187,7 @@ packages:
       zod: 3.22.4
     dev: true
 
-  /@astrojs/tailwind@5.0.3(astro@4.0.6)(tailwindcss@3.3.7):
+  /@astrojs/tailwind@5.0.3(astro@4.0.6)(tailwindcss@3.4.0):
     resolution: {integrity: sha512-p+uFa1PNuV8RxhGkPUFgVq8CUbmS3xr0u5k1An2xKECLotRh7vsrGcPUijHvYOt42URohcg8rIq0CxNoVMhReg==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
@@ -197,7 +197,7 @@ packages:
       autoprefixer: 10.4.16(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
-      tailwindcss: 3.3.7
+      tailwindcss: 3.4.0
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -889,7 +889,7 @@ packages:
     dev: true
     optional: true
 
-  /@tailwindcss/typography@0.5.10(tailwindcss@3.3.7):
+  /@tailwindcss/typography@0.5.10(tailwindcss@3.4.0):
     resolution: {integrity: sha512-Pe8BuPJQJd3FfRnm6H0ulKIGoMEQS+Vq01R6M5aCrFB/ccR/shT+0kXLjouGC1gFLm9hopTFN+DMP0pfwRWzPw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -898,7 +898,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.3.7
+      tailwindcss: 3.4.0
     dev: true
 
   /@types/babel__core@7.20.5:
@@ -4686,6 +4686,7 @@ packages:
 
   /safe-buffer@5.2.1:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
+    requiresBuild: true
     dev: true
 
   /safe-regex-test@1.0.0:
@@ -4955,6 +4956,7 @@ packages:
 
   /string_decoder@1.3.0:
     resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==}
+    requiresBuild: true
     dependencies:
       safe-buffer: 5.2.1
     dev: true
@@ -5063,8 +5065,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /tailwindcss@3.3.7:
-    resolution: {integrity: sha512-pjgQxDZPvyS/nG3ZYkyCvsbONJl7GdOejfm24iMt2ElYQQw8Jc4p0m8RdMp7mznPD0kUhfzwV3zAwa80qI0zmQ==}
+  /tailwindcss@3.4.0:
+    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
