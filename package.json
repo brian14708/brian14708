@@ -19,7 +19,7 @@
     "@astrojs/check": "0.3.4",
     "@astrojs/rss": "4.0.1",
     "@astrojs/sitemap": "3.0.4",
-    "@astrojs/tailwind": "5.0.4",
+    "@astrojs/tailwind": "5.1.0",
     "@tailwindcss/typography": "0.5.10",
     "@typescript-eslint/eslint-plugin": "6.16.0",
     "@typescript-eslint/parser": "6.16.0",
