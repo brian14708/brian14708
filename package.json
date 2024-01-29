@@ -1,7 +1,7 @@
 {
   "name": "brian14708.dev",
   "type": "module",
-  "packageManager": "pnpm@8.15.0",
+  "packageManager": "pnpm@8.15.1",
   "version": "1.0.0",
   "private": true,
   "scripts": {
