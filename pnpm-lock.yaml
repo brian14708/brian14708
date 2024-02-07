@@ -16,7 +16,7 @@ devDependencies:
     version: 3.0.5
   '@astrojs/tailwind':
     specifier: 5.1.0
-    version: 5.1.0(astro@4.3.3)(tailwindcss@3.4.1)
+    version: 5.1.0(astro@4.3.5)(tailwindcss@3.4.1)
   '@tailwindcss/typography':
     specifier: 0.5.10
     version: 0.5.10(tailwindcss@3.4.1)
@@ -27,8 +27,8 @@ devDependencies:
     specifier: 6.21.0
     version: 6.21.0(eslint@8.56.0)(typescript@5.3.3)
   astro:
-    specifier: 4.3.3
-    version: 4.3.3(typescript@5.3.3)
+    specifier: 4.3.5
+    version: 4.3.5(typescript@5.3.3)
   eslint:
     specifier: 8.56.0
     version: 8.56.0
@@ -191,13 +191,13 @@ packages:
       zod: 3.22.4
     dev: true
 
-  /@astrojs/tailwind@5.1.0(astro@4.3.3)(tailwindcss@3.4.1):
+  /@astrojs/tailwind@5.1.0(astro@4.3.5)(tailwindcss@3.4.1):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.3.3(typescript@5.3.3)
+      astro: 4.3.5(typescript@5.3.3)
       autoprefixer: 10.4.17(postcss@8.4.33)
       postcss: 8.4.33
       postcss-load-config: 4.0.2(postcss@8.4.33)
@@ -1403,10 +1403,10 @@ packages:
     resolution: {integrity: sha512-CGaBseNtunAV2DCpwBXqTKq8+9Tw65XZetMaC0FsMoZuLj0gxNIkbCf2QyKYScVrNOU7/ayfNdVw8ZCSHBiqCg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
-      '@astrojs/compiler': 2.5.2
+      '@astrojs/compiler': 2.5.3
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
-      astrojs-compiler-sync: 0.3.5(@astrojs/compiler@2.5.2)
+      astrojs-compiler-sync: 0.3.5(@astrojs/compiler@2.5.3)
       debug: 4.3.4
       entities: 4.5.0
       eslint-visitor-keys: 3.4.3
@@ -1416,8 +1416,8 @@ packages:
       - supports-color
     dev: true
 
-  /astro@4.3.3(typescript@5.3.3):
-    resolution: {integrity: sha512-8Vfcv8LuCfzkLj+NMk7i7pu5o0MPyDkYqUYWELSwKxWf85zJSNU4oLg4DlEZWbVpm5LeTfVrpSGrZGy5n4grBg==}
+  /astro@4.3.5(typescript@5.3.3):
+    resolution: {integrity: sha512-7jPffNlcmDO94NlkWe/hUWta/pIjlx1LVD/DZb/fyjT1Jv+7mGhKZBIjkDfeVpequW70mep8cAS5RM7Pxa0Gdg==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -1499,13 +1499,13 @@ packages:
       - typescript
     dev: true
 
-  /astrojs-compiler-sync@0.3.5(@astrojs/compiler@2.5.2):
+  /astrojs-compiler-sync@0.3.5(@astrojs/compiler@2.5.3):
     resolution: {integrity: sha512-y420rhIIJ2HHDkYeqKArBHSdJNIIGMztLH90KGIX3zjcJyt/cr9Z2wYA8CP5J1w6KE7xqMh0DAkhfjhNDpQb2Q==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@astrojs/compiler': '>=0.27.0'
     dependencies:
-      '@astrojs/compiler': 2.5.2
+      '@astrojs/compiler': 2.5.3
       synckit: 0.9.0
     dev: true
 
