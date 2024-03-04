@@ -13,6 +13,7 @@
         "devDependencies",
         "lockFileMaintenance"
       ],
+      "groupName": "minor updates",
       "automerge": true
     }
   ],
