@@ -12,8 +12,7 @@
     "astro": "astro",
     "check": "astro check && tsc --noEmit",
     "lint": "prettier --check . \"**/*.astro\" && eslint .",
-    "lint:fix": "prettier --write . \"**/*.astro\" && eslint --fix .",
-    "prepare": "simple-git-hooks"
+    "lint:fix": "prettier --write . \"**/*.astro\" && eslint --fix ."
   },
   "devDependencies": {
     "@astrojs/check": "0.6.0",
