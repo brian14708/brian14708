@@ -1,7 +1,7 @@
 {
   "name": "brian14708.dev",
   "type": "module",
-  "packageManager": "pnpm@9.1.1",
+  "packageManager": "pnpm@9.1.4",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -15,22 +15,22 @@
     "lint:fix": "prettier --write . \"**/*.astro\" && eslint --fix ."
   },
   "devDependencies": {
-    "@astrojs/check": "0.6.0",
-    "@astrojs/rss": "4.0.5",
-    "@astrojs/sitemap": "3.1.4",
+    "@astrojs/check": "0.7.0",
+    "@astrojs/rss": "4.0.6",
+    "@astrojs/sitemap": "3.1.5",
     "@astrojs/tailwind": "5.1.0",
     "@tailwindcss/typography": "0.5.13",
-    "astro": "4.8.2",
-    "eslint": "9.2.0",
+    "astro": "4.9.2",
+    "eslint": "9.4.0",
     "eslint-plugin-astro": "1.2.0",
     "eslint-plugin-jsx-a11y": "6.8.0",
-    "prettier": "3.2.5",
-    "prettier-plugin-astro": "0.13.0",
-    "prettier-plugin-tailwindcss": "0.5.14",
+    "prettier": "3.3.0",
+    "prettier-plugin-astro": "0.14.0",
+    "prettier-plugin-tailwindcss": "0.6.1",
     "simple-git-hooks": "2.11.1",
     "tailwindcss": "3.4.3",
     "typescript": "5.4.5",
-    "typescript-eslint": "7.8.0"
+    "typescript-eslint": "7.11.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint && pnpm check"
