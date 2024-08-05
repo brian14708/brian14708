@@ -15,12 +15,12 @@
     "lint:fix": "prettier --write . \"**/*.astro\" && eslint --fix ."
   },
   "devDependencies": {
-    "@astrojs/check": "0.8.3",
+    "@astrojs/check": "0.9.1",
     "@astrojs/rss": "4.0.7",
     "@astrojs/sitemap": "3.1.6",
     "@astrojs/tailwind": "5.1.0",
     "@tailwindcss/typography": "0.5.13",
-    "astro": "4.12.2",
+    "astro": "4.13.1",
     "eslint": "9.8.0",
     "eslint-plugin-astro": "1.2.3",
     "eslint-plugin-jsx-a11y": "6.9.0",
