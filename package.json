@@ -1,7 +1,7 @@
 {
   "name": "brian14708.dev",
   "type": "module",
-  "packageManager": "pnpm@9.8.0",
+  "packageManager": "pnpm@9.9.0",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -19,8 +19,8 @@
     "@astrojs/rss": "4.0.7",
     "@astrojs/sitemap": "3.1.6",
     "@astrojs/tailwind": "5.1.0",
-    "@tailwindcss/typography": "0.5.14",
-    "astro": "4.14.5",
+    "@tailwindcss/typography": "0.5.15",
+    "astro": "4.15.1",
     "eslint": "9.9.1",
     "eslint-plugin-astro": "1.2.3",
     "eslint-plugin-jsx-a11y": "6.9.0",
@@ -30,7 +30,7 @@
     "simple-git-hooks": "2.11.1",
     "tailwindcss": "3.4.10",
     "typescript": "5.5.4",
-    "typescript-eslint": "8.2.0"
+    "typescript-eslint": "8.3.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint && pnpm check"
