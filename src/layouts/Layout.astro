@@ -9,6 +9,7 @@ export interface Props {
 
 const { title = SITE_TITLE, description = SITE_DESCRIPTION } = Astro.props;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const CF_BEACON_TOKEN = import.meta.env.CF_BEACON_TOKEN;
 ---
 
 <!doctype html>
@@ -37,5 +38,15 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <div>
       <slot />
     </div>
+    {
+      CF_BEACON_TOKEN && (
+        <script
+          is:inline
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={JSON.stringify({ token: CF_BEACON_TOKEN })}
+        />
+      )
+    }
   </body>
 </html>
