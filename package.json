@@ -1,7 +1,7 @@
 {
   "name": "brian14708.dev",
   "type": "module",
-  "packageManager": "pnpm@9.15.4",
+  "packageManager": "pnpm@10.2.0",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -18,6 +18,7 @@
     "@astrojs/check": "0.9.4",
     "@astrojs/rss": "4.0.11",
     "@astrojs/sitemap": "3.2.1",
+    "@eslint/js": "^9.19.0",
     "@tailwindcss/typography": "0.5.16",
     "@tailwindcss/vite": "^4.0.0",
     "astro": "5.2.3",
