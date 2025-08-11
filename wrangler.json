@@ -1,7 +1,13 @@
 {
-  "name": "my-astro-app",
+  "name": "brian14708",
   "compatibility_date": "2025-03-25",
   "assets": {
     "directory": "./dist"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "brian14708.dev",
+      "custom_domain": true
+    }
+  ]
 }
