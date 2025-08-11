@@ -4,6 +4,9 @@
   "assets": {
     "directory": "./dist"
   },
+  "build": {
+    "command": "pnpm run build"
+  },
   "routes": [
     {
       "pattern": "brian14708.dev",
