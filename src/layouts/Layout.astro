@@ -37,5 +37,24 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <div>
       <slot />
     </div>
+    <footer
+      class="mx-auto max-w-2xl border-t border-stone-200 px-6 py-8 text-center text-sm text-stone-500 dark:border-stone-800 dark:text-stone-400"
+    >
+      <p>
+        &copy; 2026 Brian Li &middot; Content licensed under <a
+          href="https://github.com/brian14708/brian14708/blob/main/LICENSE-CONTENT"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="underline transition-colors duration-300 hover:text-stone-900 dark:hover:text-stone-200"
+          >CC BY-NC 4.0</a
+        > &middot; Code licensed under <a
+          href="https://github.com/brian14708/brian14708/blob/main/LICENSE"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="underline transition-colors duration-300 hover:text-stone-900 dark:hover:text-stone-200"
+          >MIT</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
