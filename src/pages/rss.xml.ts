@@ -4,7 +4,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import { getCollection } from "astro:content";
 
 export async function GET(context: APIContext) {
-  const posts = await getCollection("posts");
+  const posts = await getCollection("posts", ({ data }) => !data.draft);
   return rss({
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
@@ -13,7 +13,7 @@ export async function GET(context: APIContext) {
       title: post.data.title,
       pubDate: post.data.date,
       description: post.data.description,
-      link: `/posts/${post.slug}/`,
+      link: `/posts/${post.id.replace(/\.md$/, "")}/`,
     })),
   });
 }
