@@ -27,8 +27,8 @@ importers:
         specifier: ^4.0.0
         version: 4.2.2(vite@7.3.1(@types/node@24.12.0)(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.2))
       astro:
-        specifier: 6.0.6
-        version: 6.0.6(@types/node@24.12.0)(jiti@2.6.1)(lightningcss@1.32.0)(rollup@4.59.0)(typescript@5.9.3)(yaml@2.8.2)
+        specifier: 6.0.7
+        version: 6.0.7(@types/node@24.12.0)(jiti@2.6.1)(lightningcss@1.32.0)(rollup@4.59.0)(typescript@5.9.3)(yaml@2.8.2)
       eslint:
         specifier: 10.0.3
         version: 10.0.3(jiti@2.6.1)
@@ -1045,8 +1045,8 @@ packages:
     resolution: {integrity: sha512-aOLc/aDR7lTWAHlytEefwn4Y6qs6uMr69DZvUx2A1AOAZsWhGB/paiRWPtVchh9wzMvLeqr+DkbENhVreVr9AQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@6.0.6:
-    resolution: {integrity: sha512-Fg25tok0RF+ToCcfdfNdtkv7MutTfbE0Lc4UhZpQyoc8/iiTdAaNw1nHPxPD6Nfa/ql3lGAp9uOWaTTnnFY2Zg==}
+  astro@6.0.7:
+    resolution: {integrity: sha512-tCUrtQI+2Dk13xTM07JYrvk16T4ekWqSXh0/dVCunne816ZV+RCs1tomSoTHZi3DJdoaTnLJmkH+uxCC3b1KWw==}
     engines: {node: '>=22.12.0', npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3875,7 +3875,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@6.0.6(@types/node@24.12.0)(jiti@2.6.1)(lightningcss@1.32.0)(rollup@4.59.0)(typescript@5.9.3)(yaml@2.8.2):
+  astro@6.0.7(@types/node@24.12.0)(jiti@2.6.1)(lightningcss@1.32.0)(rollup@4.59.0)(typescript@5.9.3)(yaml@2.8.2):
     dependencies:
       '@astrojs/compiler': 3.0.0
       '@astrojs/internal-helpers': 0.8.0
