@@ -21,7 +21,7 @@
     "@eslint/js": "^10.0.0",
     "@tailwindcss/typography": "0.5.19",
     "@tailwindcss/vite": "^4.0.0",
-    "astro": "6.1.5",
+    "astro": "6.1.6",
     "eslint": "10.2.0",
     "eslint-plugin-astro": "1.7.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
@@ -31,7 +31,7 @@
     "simple-git-hooks": "2.13.1",
     "tailwindcss": "4.2.2",
     "typescript": "6.0.2",
-    "typescript-eslint": "8.58.1"
+    "typescript-eslint": "8.58.2"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint && pnpm check"
