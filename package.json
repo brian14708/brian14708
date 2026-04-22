@@ -1,7 +1,7 @@
 {
   "name": "brian14708.dev",
   "type": "module",
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@10.33.1",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -21,7 +21,7 @@
     "@eslint/js": "^10.0.0",
     "@tailwindcss/typography": "0.5.19",
     "@tailwindcss/vite": "^4.0.0",
-    "astro": "6.1.8",
+    "astro": "6.1.9",
     "eslint": "10.2.1",
     "eslint-plugin-astro": "1.7.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
