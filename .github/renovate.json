@@ -10,7 +10,6 @@
         "patch",
         "pin",
         "digest",
-        "devDependencies",
         "lockFileMaintenance"
       ],
       "groupName": "minor updates",
