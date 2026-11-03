@@ -21,7 +21,7 @@
     "@eslint/js": "^10.0.0",
     "@tailwindcss/typography": "0.5.20",
     "@tailwindcss/vite": "^4.0.0",
-    "astro": "7.4.4",
+    "astro": "7.4.5",
     "eslint": "10.14.0",
     "eslint-plugin-astro": "3.2.1",
     "eslint-plugin-jsx-a11y": "6.10.2",
@@ -29,7 +29,7 @@
     "prettier-plugin-astro": "1.1.2",
     "prettier-plugin-tailwindcss": "0.8.1",
     "simple-git-hooks": "2.14.0",
-    "tailwindcss": "4.3.3",
+    "tailwindcss": "4.3.4",
     "typescript": "7.0.2",
     "typescript-eslint": "8.72.1"
   },
