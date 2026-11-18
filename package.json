@@ -17,11 +17,11 @@
   "devDependencies": {
     "@astrojs/check": "0.9.12",
     "@astrojs/rss": "4.0.19",
-    "@astrojs/sitemap": "3.7.5",
+    "@astrojs/sitemap": "3.7.6",
     "@eslint/js": "^10.0.0",
     "@tailwindcss/typography": "0.5.20",
     "@tailwindcss/vite": "^4.0.0",
-    "astro": "7.4.12",
+    "astro": "7.4.13",
     "eslint": "10.15.0",
     "eslint-plugin-astro": "3.2.1",
     "eslint-plugin-jsx-a11y": "6.10.2",
