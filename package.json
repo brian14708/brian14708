@@ -1,7 +1,7 @@
 {
   "name": "brian14708.dev",
   "type": "module",
-  "packageManager": "pnpm@12.21.0",
+  "packageManager": "pnpm@12.23.0",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -31,7 +31,7 @@
     "simple-git-hooks": "2.14.0",
     "tailwindcss": "4.3.5",
     "typescript": "7.0.2",
-    "typescript-eslint": "8.73.0"
+    "typescript-eslint": "8.74.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint && pnpm check"
